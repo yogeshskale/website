@@ -1,0 +1,95 @@
+.navbar{
+    background-color:darkslateblue !important;
+    border-bottom: 2px solid darkorange;
+}
+
+.navbar b{
+    color: darkorange;
+}
+
+.navbar a.navbar-brand{
+    font-size: 2em;
+}
+
+/* Apply when scrolling nav bar */
+.fixed-top.scrolled {
+    background-color: #fff !important;
+    transition: background-color 200ms linear;
+  }
+  
+  .fixed-top.scrolled  span{
+      color: darkslateblue;
+  }
+  .fixed-top.scrolled .nav-link {
+    color:#555;
+  }
+  .fixed-top.scrolled .nav-link {
+    color:darkorange !important;
+  }
+/* .end scrolling nav bar */
+
+.dropdown-menu{
+    background-color:darkslateblue !important;
+}
+
+.dropdown-menu a{
+    color: white !important;
+}
+
+.dropdown-menu a.dropdown-item:hover{
+    color: darkorange !important;
+    border-bottom: 2px solid darkorange;
+    background-color: transparent;
+}
+.nav-item a.nav-link:hover{
+    color: darkorange !important;
+    border-bottom: 2px solid darkorange;
+}
+
+.mb-10{
+    margin-bottom: 15rem!important
+}
+
+.img-fluid{
+    max-width: 200px !important;
+}
+.footer-section{
+    background-color:darkslateblue !important;
+    border-top: 2px solid darkorange;
+    color: white;
+}
+
+.footer-section img{
+    max-height: 20vh;
+}
+
+.fab{
+    font-size: 2em !important;
+    padding: 10px;
+}
+
+/* Copy right section */
+.copyright{
+    background-color: #252525;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.back-to-top{
+    display: inline;
+    position: fixed;
+    display: none;
+    background: darkorange;
+    border-radius: 50%;
+    z-index: 99;
+    width: 55px;
+    height: 55px;
+    color: #fff;
+    padding: 14px 12px 9px 12px;
+    font-size: 18px;
+    right: 15px;
+    bottom: 15px;
+    transition: background 0.5s;
+    text-align: center;
+}
